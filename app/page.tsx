@@ -18,7 +18,7 @@ export default function Home() {
   const raffles = [
     {
       id: 1,
-      title: "Pix do Milhão",
+      title: "Audi Trevo da Sorte",
       image: "/placeholder.svg?height=200&width=300",
       price: 1.99,
       description: "Concorra a R$ 1.000.000,00!",
@@ -56,13 +56,13 @@ export default function Home() {
     <main className="min-h-screen bg-[#121212] text-white flex flex-col items-center justify-center p-4">
       <div className="max-w-md w-full">
         <div className="flex justify-center mb-8">
-          <Image src="/images/logo.png" alt="PIX DO MILHÃO" width={200} height={40} />
+          <Image src="/images/logo.png" alt="AUDI TREVO DA SORTE" width={200} height={40} />
         </div>
 
         <div className="bg-[#1e1e1e] rounded-lg overflow-hidden mb-6">
           <Image
             src="/images/3.png"
-            alt="PIX DO MILHÃO - 50% OFF CONCORRA R$1.000.000"
+            alt="AUDI TREVO DA SORTE - 50% OFF CONCORRA R$1.000.000"
             width={500}
             height={250}
             className="w-full"
@@ -77,7 +77,7 @@ export default function Home() {
         </div>
 
         <div className="text-center text-gray-400 text-sm">
-          <p>© 2025 PIX DO MILHÃO - Todos os direitos reservados</p>
+          <p>© 2026 AUDI TREVO DA SORTE - Todos os direitos reservados</p>
         </div>
       </div>
 
